@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <h1>PHP Badwords</h1>
 
 <!-- Campo di testo -->
   <form action="final.php" method="post">
-    <label for="phpbadword">Testo:</label>
-    <input type="text" id="phpbadword" name="badword" placeholder="Inserisci il testo">
+    <label for="testo">Testo:</label>
+   <textarea name="testo" id="testo" cols="30" rows="1" placeholder="Inserisci il testo"></textarea>
     <button>invia</button>
   </form>
 
