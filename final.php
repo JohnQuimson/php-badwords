@@ -28,14 +28,16 @@ $replace = str_replace($badword, "***", $testo);
         echo $testo;
       ?>
     </p>
+    <span>Sono presenti:  <?php echo strlen($testo); ?> caratteri.</span>
 
+    <!-- Modified -->
     <strong>Modified</strong>
     <p>
       <?php 
         echo $replace;
       ?>
     </p>
-
+     <span>Sono presenti:  <?php echo strlen($replace); ?> caratteri.</span>
 
   </main>
 
