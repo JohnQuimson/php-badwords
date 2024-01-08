@@ -2,6 +2,7 @@
 
 $testo = $_POST["testo"];
 $badword = $_POST["badword"];
+$replace = str_replace($badword, "***", $testo);
 
 
 ?>
@@ -26,7 +27,13 @@ $badword = $_POST["badword"];
       <?php 
         echo $testo;
       ?>
-     
+    </p>
+
+    <strong>Modified</strong>
+    <p>
+      <?php 
+        echo $replace;
+      ?>
     </p>
 
 
