@@ -1,6 +1,8 @@
 <?php
 
 $testo = $_POST["testo"];
+$badword = $_POST["badword"];
+
 
 ?>
 
@@ -17,12 +19,17 @@ $testo = $_POST["testo"];
   <h1>PHP Badwords</h1>
 
   <main>
+
+    <!-- Raw text -->
     <strong>Raw Text</strong>
     <p>
       <?php 
         echo $testo;
       ?>
+     
     </p>
+
+
   </main>
 
 </body>

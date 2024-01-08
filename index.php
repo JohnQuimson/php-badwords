@@ -10,19 +10,23 @@
 <body>
   <h1>PHP Badwords</h1>
 
-<!-- Campo di testo -->
+
   <form action="final.php" method="post">
+
+    <!-- Campo di testo -->
     <label for="testo">Testo:</label>
-   <textarea name="testo" id="testo" cols="30" rows="1" placeholder="Inserisci il testo"></textarea>
+   <textarea name="testo" id="testo" cols="30" rows="2" placeholder="Inserisci il testo"></textarea>
+    
+   <!-- Bad Words -->
+   <label for="badword">Bad-words:</label>
+    <input type="text" id="badword" name="badword" placeholder="Inserisci le bad-words">
     <button>invia</button>
   </form>
 
-<!-- Bad Words -->
-  <form action="final.php" method="post">
-    <label for="phpbadword">Bad-words:</label>
-    <input type="text" id="phpbadword" name="badword" placeholder="Inserisci le bad-words">
-    <button>invia</button>
-  </form>
+
+  
+    
+  
 
 </body>
 </html>
